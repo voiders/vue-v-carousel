@@ -2,7 +2,17 @@
 
 > A Vue.js Component
 
-## Build Setup
+
+## Installation
+
+``` bash
+# npm install
+
+npm install voider-carousel --save
+
+```
+
+## Build & Run
 
 ``` bash
 # install dependencies
@@ -13,3 +23,5 @@ npm run dev
 
 # build for production with minification
 npm run prod
+
+```
