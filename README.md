@@ -1,5 +1,7 @@
 # Carousel component
 
+[![NPM Version][npm-image]][npm-url]
+
 > A Vue.js Component
 
 
@@ -25,3 +27,6 @@ npm run dev
 npm run prod
 
 ```
+
+[npm-url]: https://www.npmjs.com/package/voider-carousel
+[npm-image]: https://img.shields.io/badge/npm-0.0.1-blue.svg
