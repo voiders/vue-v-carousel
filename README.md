@@ -2,8 +2,10 @@
 
 [![NPM Version][npm-image]][npm-url]
 
-> A Vue.js Component
-> Basic functionality from ![https://desandro.github.io/3dtransforms/docs/carousel.html](https://desandro.github.io/3dtransforms/docs/carousel.html)
+> A Vue.js Component  
+
+> Basic functionality from ![https://desandro.github.io/3dtransforms/docs/carousel.html](https://desandro.github.io/3dtransforms/docs/carousel.html)  
+
 
 ## Installation
 

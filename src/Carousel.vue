@@ -71,7 +71,7 @@ export default {
   watch:{
     ready: function(val){
       if(val){
-        this.transitionDuration = 5;
+        this.transitionDuration = 2;
       }
     }
   },
