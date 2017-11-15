@@ -10,7 +10,7 @@
 ``` bash
 # npm install
 
-npm install voider-carousel --save
+npm install vue-v-carousel --save
 
 ```
 
