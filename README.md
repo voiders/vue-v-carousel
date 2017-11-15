@@ -3,7 +3,7 @@
 [![NPM Version][npm-image]][npm-url]
 
 > A Vue.js Component
-
+> Basic functionality from ![https://desandro.github.io/3dtransforms/docs/carousel.html](https://desandro.github.io/3dtransforms/docs/carousel.html)
 
 ## Installation
 
@@ -44,3 +44,4 @@ npm run prod
 
 [npm-url]: https://www.npmjs.com/package/voider-carousel
 [npm-image]: https://img.shields.io/badge/npm-0.0.1-blue.svg
+[basic-functionality]: https://desandro.github.io/3dtransforms/docs/carousel.html
