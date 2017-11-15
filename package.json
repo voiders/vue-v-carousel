@@ -1,7 +1,7 @@
 {
   "name": "vue-v-carousel",
   "description": "A Vue.js component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Edgar Xolop <edgarxoix@gmail.com>",
   "license": "MIT",
   "main" : "./src/Carousel.vue",

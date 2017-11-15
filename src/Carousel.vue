@@ -51,9 +51,14 @@ export default {
     getStyle: function(index){
       let build = '';
 
+      build += '-webkit-transform: rotateY(' + ((index+this.cursor)*this.deg) + 'deg ) translateZ(' + this.translatez + 'px ); '
+      build += '-moz-transform: rotateY(' + ((index+this.cursor)*this.deg) + 'deg ) translateZ(' + this.translatez + 'px ); '
+      build += '-o-transform: rotateY(' + ((index+this.cursor)*this.deg) + 'deg ) translateZ(' + this.translatez + 'px ); '
       build += 'transform: rotateY(' + ((index+this.cursor)*this.deg) + 'deg ) translateZ(' + this.translatez + 'px ); '
-      build += '-webkit-transition-duration: ' + this.transitionDuration + 's;'; 
-      build += 'transition-duration: ' + this.transitionDuration + 's;';
+      build += '-webkit-transition: -webkit-transform ' + this.transitionDuration + 's;'; 
+      build += '-moz-transition: -moz-transform ' + this.transitionDuration + 's;';
+      build += '-o-transition: -o-transform ' + this.transitionDuration + 's;';
+      build += 'transition: transform ' + this.transitionDuration + 's;';
 
       return build;
     },
